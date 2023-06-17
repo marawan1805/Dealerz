@@ -1,0 +1,131 @@
+.testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: white;
+    width: 80%;
+    border-radius: 10px;
+    position: relative;
+    margin: 20px auto;
+    height: 350px;
+}  
+  .testimonial {
+    display: flex; 
+    gap: 20px;
+    width: 100%; 
+    padding: 40px;
+  }
+  
+  .testimonial img {
+    flex-shrink: 0; 
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    margin-right: 50px;
+}
+  
+  .testimonial-info {
+    display: flex;
+    flex-direction: column;
+    color: orange;
+    flex-grow: 1; 
+
+  }
+  
+.testimonial-info h2 {
+  margin-bottom: 10px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    color: #F86338;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.testimonial-info p {
+  margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-family: 'DM Sans', sans-serif;
+    color: #9A9AB0
+}
+
+.testimonial-info .name {
+  font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-family: 'DM Sans', sans-serif;
+    color: #11142D
+}
+
+.testimonial-info .job {
+  font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: 'DM Sans', sans-serif;
+    color: #515151
+}
+
+.icon-button-left{
+    width: 50px;
+    height: 42px;
+    margin-left: -20px;
+    background: #F86338;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.5;
+    border: none;
+    outline: none;
+}
+
+.icon-button-right{
+    width: 50px;
+    height: 42px;
+    margin-right: -20px;
+    background: #F86338;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.5;
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+      width: 90%; 
+      height: auto;
+  }
+
+  .testimonial {
+      flex-direction: column; 
+      align-items: center; 
+      padding: 20px;
+  }
+
+  .testimonial img {
+      width: 200px; 
+      height: 200px;
+      margin-right: 0;
+  }
+
+  .testimonial-info {
+      text-align: center; 
+  }
+
+  .icon-button-left, .icon-button-right {
+      margin-left: 0;
+      margin-right: 0;
+      width: 40px;
+      height: 32px;
+  }
+}

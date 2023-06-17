@@ -1,0 +1,85 @@
+.carousel-item {
+  width: 300px;
+  padding: 0 10px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2e2ea;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-left: 12%;
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  .carousel-item {
+    margin-left: 28%;
+    width: 250px;
+  }
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-item .carousel-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.carousel-item .carousel-info .title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #11142d;
+}
+
+.carousel-item .carousel-info .description {
+  margin-top: 10px;
+  color: #9A9AB0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.carousel-item .carousel-info .prices {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item .carousel-info .prices .price-orange {
+  color: #F86338;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.carousel-item .carousel-info .prices .price-gray {
+  color: #9A9AB0;
+  margin-left: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+
+.carousel-item .sale-tag {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}

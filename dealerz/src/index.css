@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: DM Sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F4F7F8;
+}
+
+code {
+  font-family: DM Sans;
+}
+
+#root{
+  overflow-x: hidden;
+}
+.product-detail-container {
+  background: linear-gradient(to bottom, white 50%, transparent 50%);
+}

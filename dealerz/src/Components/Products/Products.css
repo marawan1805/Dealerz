@@ -1,0 +1,139 @@
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 130vh;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 20px 0 20px 0;
+  width: 300px;
+  padding: 20px;
+  background: #ffffff;
+  position: relative;
+}
+
+.card-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fav-icon {
+  font-size: 24px;
+  color: #f86338;
+  cursor: pointer;
+}
+
+.product-card img {
+  width: 50%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #11142d;
+  margin: 10px 0;
+}
+
+.seller-name {
+  font-size: 14px;
+  font-weight: 400;
+  color: #515151;
+  font-family: "DM Sans", sans-serif;
+  margin: 5px 0;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f86338;
+  font-family: "DM Sans", sans-serif;
+}
+
+.products-page {
+  display: flex;
+}
+
+.products-container {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.skeleton-loading {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.skeleton-card {
+  width: 100%;
+  height: 200px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.show-more-btn {
+  color: #fff;
+  background-color: #f86338;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.005em;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.show-more-btn:hover {
+  background-color: #f94c1a;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.show-more-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .products-page {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .products-grid {
+    width: 100%;
+  }
+
+  .product-card {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+
+  .product-card img {
+    width: 70%;
+    height: 150px;
+  }
+.products-container {
+    margin: 0;
+  }
+  .show-more-btn-container {
+    padding: 10px;
+  }
+}

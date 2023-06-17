@@ -1,0 +1,138 @@
+.filter-section {
+  padding: 70px;
+  width: 250px;
+}
+
+.filter-section input[type="text"] {
+  width: 94%;
+  padding: 8px;
+  border: 1.2px solid #11142d;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: transparent;
+  outline: none;
+}
+
+.category-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-section hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.filter-section .categories-column {
+  margin-top: 20px;
+}
+
+.categories-column {
+  display: flex;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  cursor: pointer;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.filter-section button {
+  margin-bottom: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-section .categories-column .active {
+  color: #f86338;
+  font-weight: bold;
+}
+
+.filter-header {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #11142d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-range {
+  margin-bottom: 20px;
+}
+
+.input-range__slider {
+  appearance: none;
+  background: #f86338;
+}
+
+.input-range__track--active,
+.input-range__slider {
+  background: #f86338;
+}
+
+.input-range__label {
+  display: none;
+}
+
+.price-range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.price-range span {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #11142d;
+}
+
+.categories-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #11142d;
+  margin-bottom: 20px;
+}
+
+.product-card .filter-rating img{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+
+  .filter-section {
+      width: 100%; 
+      padding: 10px;
+  }
+
+  .filter-section input[type="text"] {
+      width: 95%; 
+  }
+
+  .category-button, .categories-column {
+      flex-direction: row; 
+      justify-content: center; 
+  }
+
+  .price-range {
+      flex-direction: column; 
+  }
+}

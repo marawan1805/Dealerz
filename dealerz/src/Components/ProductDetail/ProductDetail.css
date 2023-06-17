@@ -1,0 +1,206 @@
+.product-detail {
+  display: flex;
+  gap: 20px;
+  padding: 80px;
+  margin-bottom: -20vh;
+}
+
+.product-images {
+  flex: 1;
+  margin-right: 10vh;
+}
+
+.product-images .main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.product-images .other-image {
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.product-info {
+  flex: 1;
+  margin-left: 10vh;
+}
+
+.product-info h2 {
+  font-size: 44px;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.product-info h4 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  color: #11142d;
+  margin-bottom: 20px;
+}
+
+.product-info p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "DM Sans", sans-serif;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.product-info .quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.product-info .quantity .left {
+  font-size: 14px;
+  font-weight: 550;
+  font-family: "DM Sans", sans-serif;
+  color: #11142d;
+}
+
+.product-info .quantity .right {
+  font-size: 14px;
+  font-weight: 550;
+  font-family: "DM Sans", sans-serif;
+  color: #f86338;
+}
+
+.product-info .subtotal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 550;
+  font-family: "DM Sans", sans-serif;
+}
+
+.price-orange-lg {
+  color: #f86338;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.star-img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.quantity .quantity-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  justify-content: space-between;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  padding: 0 10px;
+}
+
+.quantity .quantity-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.add-to-cart-btn {
+  color: #fff;
+  background-color: #f86338;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.005em;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #f94c1a;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.add-to-wishlist-btn {
+  color: #f86338;
+  background: none;
+  border: 2px solid #f86338;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.005em;
+  border-radius: 5px;
+  margin-right: 15px;
+  height: 50px;
+}
+
+.add-to-wishlist-btn:hover {
+  border: 2px solid #f94c1a;
+  color: #f94c1a;
+  transition: 0.3s;
+}
+
+.product-detail-description {
+  flex: 1;
+  margin-left: 2vh;
+}
+
+.product-detail-description h2 {
+  font-size: 40px;
+  font-weight: 550;
+  font-family: "DM Sans", sans-serif;
+  color: #11142D;
+  margin-bottom: 20px;
+}
+
+.product-detail-description p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-family: "DM Sans", sans-serif;
+  color: #9A9AB0;
+  margin-bottom: 10vh;
+  margin-top: 7vh;
+}
+
+.product-description-image {
+  flex: 1;
+  margin-right: 5vh;
+  margin-left: 10vh;
+  margin-top: 20vh;
+}
+
+.product-description-image .main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
